@@ -27,7 +27,7 @@ def register(request):
         # Send email notification
         subject = 'Registration Successful'
         message = f'Hello {name},\n\nYou have been successfully registered in our system.\n\nThank you!'
-        from_email = 'firojali723@gmail.com'            
+        from_email = 'trishan.shrestha11@gmail.com'               
         recipient_list = [email]
             
         send_mail(subject, message, from_email, recipient_list, fail_silently=False)
